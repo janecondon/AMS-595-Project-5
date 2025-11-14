@@ -111,7 +111,8 @@ $$
 
 - Define the loss function and gradient.  
 - Implement gradient descent using `scipy.optimize.minimize`.  
-- Stop when the change in loss < \(10^{-6}\) or after 1000 iterations.  
+- Stop when the change in loss $< 10^{-6}$
+ or after 1000 iterations.  
 
 **Result:**  
 - The algorithm converges in 3 iterations.  
