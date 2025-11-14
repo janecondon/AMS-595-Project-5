@@ -125,4 +125,4 @@ $$
 
 1. Clone the repository:  
    ```bash
-   git clone <repo-url>
+   git clone <https://github.com/janecondon/AMS-595-Project-5.git>
