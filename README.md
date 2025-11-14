@@ -101,7 +101,7 @@ $$
 
 ## 4. Gradient Descent for Minimizing Loss Function
 
-Given a matrix \(X \in \mathbb{R}^{100 \times 50}\) and a target matrix \(A\), we minimize the mean squared error loss:
+Given a matrix $X \in \mathbb{R}^{100 \times 50}$ and a target matrix A, we minimize the mean squared error loss:
 
 $$
 f(X) = \frac{1}{2} \sum_{i,j} (X_{i,j} - A_{i,j})^2, \quad \nabla f(X) = X - A
