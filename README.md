@@ -17,15 +17,15 @@ This project implements four data analysis and machine learning algorithms:
 
 We implement the PageRank algorithm to rank websites based on how many links point to them. A small web network is represented by the following probability matrix \(M\), where \(M[i,j]\) is the probability that a user on page \(j\) clicks a link to page \(i\):
 
-\[
-M =
-\begin{bmatrix}
+$$
+M = \begin{bmatrix}
 0 & 0 & 1/2 & 0 \\
 1/3 & 0 & 0 & 1/2 \\
 1/3 & 1/2 & 0 & 1/2 \\
 1/3 & 1/2 & 1/2 & 0
 \end{bmatrix}
-\]
+$$
+
 
 ### Steps:
 
