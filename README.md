@@ -41,15 +41,14 @@ $$
 
 We apply PCA to a dataset of 100 standardized height and weight measurements:
 
-\[
-\text{Data} =
-\begin{bmatrix}
+$$
+\text{Data} = \begin{bmatrix}
 h_1 & w_1 \\
 h_2 & w_2 \\
 \vdots & \vdots \\
 h_{100} & w_{100}
 \end{bmatrix}
-\]
+$$
 
 ### Steps:
 
@@ -70,7 +69,7 @@ h_{100} & w_{100}
 
 We use linear regression to predict house prices based on square footage, number of bedrooms, and age:
 
-\[
+$$
 X =
 \begin{bmatrix}
 2100 & 3 & 20 \\
@@ -86,11 +85,11 @@ y =
 330 \\
 400
 \end{bmatrix}
-\]
+$$
 
 ### Steps:
 
-- Solve \(X\beta = y\) using least squares to obtain regression coefficients.  
+- Solve $X \beta = y$ using least squares to obtain regression coefficients.  
 - Predict house prices for new examples.  
 
 **Notes:**  
@@ -104,9 +103,9 @@ y =
 
 Given a matrix \(X \in \mathbb{R}^{100 \times 50}\) and a target matrix \(A\), we minimize the mean squared error loss:
 
-\[
+$$
 f(X) = \frac{1}{2} \sum_{i,j} (X_{i,j} - A_{i,j})^2, \quad \nabla f(X) = X - A
-\]
+$$
 
 ### Steps:
 
